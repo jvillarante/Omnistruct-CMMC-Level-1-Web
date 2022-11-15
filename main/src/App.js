@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Privacy. Explanation about Omnistruct.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="test.html"
+          
           rel="noopener noreferrer"
         >
-          Learn React
+          Start
         </a>
       </header>
     </div>
