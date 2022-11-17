@@ -26,7 +26,7 @@ function App() {
         <br></br>
 
         <a
-          className="Result-Link"
+          className="App-Link"
           href = "resultsPage.html"
 
           rel = "noopener noreferrer"
