@@ -31,6 +31,17 @@ function App() {
         >
           Start
         </a>
+
+        <br></br>
+
+        <a
+          className="Result-Link"
+          href = "resultsPage.html"
+
+          rel = "noopener noreferrer"
+        >
+          Result
+        </a>
         </header>
       </div>
     </div>
