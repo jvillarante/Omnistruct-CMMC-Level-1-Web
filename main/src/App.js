@@ -6,15 +6,6 @@ import './App.css';
 function App() {
   return (
   <div>
-    <div>
-      <p>
-        <input type = "text" placeholder = "Company Name:"/>
-      </p>
-      <p>
-        <input type = "text" placeholder = "Email Address:"/>
-      </p>
-      <button>Submit</button>
-    </div>  
 
     <div className="App">
       <header className="App-header">
