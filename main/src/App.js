@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 //import './results.html';
 
@@ -10,17 +9,18 @@ function App() {
 
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src= "Omni-Logo.png" alt="HTML" width="500" height="150" ></img>
         <p>
-          Privacy. Explanation about Omnistruct.
+          This will be the Privacy Disclaimer. The page will also have an explanation about Omnistruct.
         </p>
         <a
           className="App-link"
+
           href="questionPage.html"
           
           rel="noopener noreferrer"
         >
-          Start
+          Start Questionaire
         </a>
 
         <br></br>
