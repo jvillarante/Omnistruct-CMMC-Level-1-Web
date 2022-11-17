@@ -1,7 +1,21 @@
 import './App.css';
+//import './results.html';
+
+
 
 function App() {
   return (
+  <div>
+    <div>
+      <p>
+        <input type = "text" placeholder = "Company Name:"/>
+      </p>
+      <p>
+        <input type = "text" placeholder = "Email Address:"/>
+      </p>
+      <button>Submit</button>
+    </div>  
+
     <div className="App">
       <header className="App-header">
         <img src= "Omni-Logo.png" alt="HTML" width="500" height="150" ></img>
@@ -17,7 +31,19 @@ function App() {
         >
           Start Questionaire
         </a>
-      </header>
+
+        <br></br>
+
+        <a
+          className="Result-Link"
+          href = "resultsPage.html"
+
+          rel = "noopener noreferrer"
+        >
+          Result
+        </a>
+        </header>
+      </div>
     </div>
   );
 }
