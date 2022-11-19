@@ -1,6 +1,5 @@
 import './App.css';
 //import './results.html';
-import './questionPageJS.js';
 
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
         <a
           className="App-link"
 
-          href="questionPage.html"
+          href="javascript:QuestionPage();"
           
           rel="noopener noreferrer"
         >
