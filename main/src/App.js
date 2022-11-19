@@ -1,41 +1,20 @@
-import './App.css';
-//import './results.html';
-
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Assessment from './Assessment';
+import Results from './Results';
 
 function App() {
   return (
-  <div>
-
-    <div className="App">
-      <header className="App-header">
-        <img src= "Omni-Logo.png" alt="HTML" width="500" height="150" ></img>
-        <p>
-          This will be the Privacy Disclaimer. The page will also have an explanation about Omnistruct.
-        </p>
-        <a
-          className="App-link"
-
-          href="questionPage.html"
-          
-          rel="noopener noreferrer"
-        >
-          Start Questionaire
-        </a>
-
-        <br></br>
-
-        <a
-          className="App-Link"
-          href = "resultsPage.html"
-
-          rel = "noopener noreferrer"
-        >
-          Result
-        </a>
-        </header>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/CMMC-Assessment" element={<Assessment/>} />
+          <Route path="/results" element={<Results/>} />
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 
