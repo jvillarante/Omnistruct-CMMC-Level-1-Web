@@ -1,4 +1,5 @@
 import React from 'react';
+//import './assessment.css';
 
 var questions = ["Is a list of authorized users maintained that states their identity and role?", "Are requests to make system changes authorized?"];
 
@@ -34,6 +35,15 @@ function displayPreviousQuestion() {
     document.getElementById("question").innerHTML = questions[questionNum];
 }
 
+function displayQuestionBox(){
+    var el=document.getElementById("questionBox");
+    var width=window.innerWidth-50;
+    var height=window.innerHeight-50;
+    el.style.left=width*Math.random() + "px";
+    el.style.top=height*Math.random() + "px";
+
+}
+
 const Assessment = () => {
     return (
         <div className="assessment">
@@ -44,8 +54,23 @@ const Assessment = () => {
                 <input id = "back" type = "button" value = "Back" onClick={displayPreviousQuestion} style = {{visibility: 'hidden' }}/>
                 <input type = "button" value = "Next" onClick={displayNextQuestion}/> 
             </p>
+
+            <div id="questionBox">
+                 Question Box
+            </div>
+            <head>
+            <style>
+            p.solid {border-style: solid;}
+            </style>
+            </head>
+            <body>  
+            <p class="solid">A solid border.</p>
+            </body>
         </div>
+        
+
     )
+
 }
 
 
