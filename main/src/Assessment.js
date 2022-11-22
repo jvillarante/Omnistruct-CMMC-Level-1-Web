@@ -52,8 +52,24 @@ const Assessment = () => {
                     Question Bank
                 </h1>
                 <div className="questionButtons">
-                        <input type="button" value="1" class="right"></input>
-                        <input type="button" value="2" class="right"></input>
+                <nav>
+            <ul>
+                <li><a href="#"><button>Question 1</button></a></li>
+                <li><a href="#"><button>Question 2</button></a></li>
+                <li><a href="#"><button>Question 3</button></a></li>
+                <li><a href="#"><button>QUesiton 4</button></a></li>
+                <li><a href="#"><button>Question 5</button></a></li>
+                <li><a href="#"><button>Question 6</button></a></li> 
+                <li><a href="#"><button>Question 7</button></a></li> 
+                <li><a href="#"><button>Question 8</button></a></li>
+                <li><a href="#"><button>Question 9</button></a></li>
+                <li><a href="#"><button>Question 10</button></a></li>
+                <li><a href="#"><button>Question 11</button></a></li>
+                <li><a href="#"><button>Question 12</button></a></li>
+                <li><a href="#"><button>Question 13</button></a></li>
+
+                    </ul>
+                </nav>
                 </div>
             </div>
         </div>

@@ -60,5 +60,8 @@ body {
   background: #d23c3c;
   align-items: center;
   width: 250px;
-  height: 400px;
+  height: 300px;
 }
+
+nav ul{height: 250px; width: 80%;}
+nav ul{overflow:hidden; overflow-y:scroll;}
