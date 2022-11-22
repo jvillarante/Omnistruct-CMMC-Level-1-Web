@@ -55,3 +55,10 @@ body {
   border-radius: 4px;
   background: #f0f0f0;
 }
+
+.questionBank {
+  background: #d23c3c;
+  align-items: center;
+  width: 250px;
+  height: 400px;
+}
