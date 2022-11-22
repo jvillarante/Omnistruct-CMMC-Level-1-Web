@@ -1,0 +1,10 @@
+{
+    "questions": [
+        { "id": 1, "question": "Is a list of authorized users maintained that states their identity and role?" },
+        { "id": 2, "question": "Are requests to make system changes authorized?"}
+    ],
+    "answers": [
+        {"id": 1, "answer": null},
+        {"id": 2, "answer": null}
+    ]
+}
