@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 var questions = ["Is a list of authorized users maintained that states their identity and role?", "Are requests to make system changes authorized?"];
 
@@ -43,6 +45,7 @@ const Assessment = () => {
                 <input id = "no"  type = "radio" name = "questionAnswer"/> No<br/>
                 <input id = "back" type = "button" value = "Back" onClick={displayPreviousQuestion} style = {{visibility: 'hidden' }}/>
                 <input type = "button" value = "Next" onClick={displayNextQuestion}/> 
+                <Link to="/results">Results</Link>
             </p>
         </div>
     )
