@@ -37,14 +37,6 @@ function displayPreviousQuestion() {
     document.getElementById("question").innerHTML = questions[questionNum];
 }
 
-function displayQuestionBox(){
-    var el=document.getElementById("questionBox");
-    var width=window.innerWidth-50;
-    var height=window.innerHeight-50;
-    el.style.left=width*Math.random() + "px";
-    el.style.top=height*Math.random() + "px";
-
-}
 
 const Assessment = () => {
     return (
@@ -58,19 +50,16 @@ const Assessment = () => {
                 <Link to="/results">Results</Link>
             </p>
 
-            <div id="questionBox">
-                 Question Box
+            <div className = "questionBank">
+                <h1>
+                    Question Bank
+                </h1>
+                <div className="questionButtons">
+                        <input type="button" value="1" class="right"></input>
+                        <input type="button" value="2" class="right"></input>
+                </div>
             </div>
-            <head>
-            <style>
-            p.solid {border-style: solid;}
-            </style>
-            </head>
-            <body>  
-            <p class="solid">A solid border.</p>
-            </body>
         </div>
-        
 
     )
 
