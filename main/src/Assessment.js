@@ -44,8 +44,6 @@ const Assessment = () => {
                 <input id = "back" type = "button" value = "Back" onClick={displayPreviousQuestion} style = {{visibility: 'hidden' }}/>
                 <input type = "button" value = "Next" onClick={displayNextQuestion}/> 
             </p>
-            <p>Is a list of authorized users maintained that states their identity and role?</p>
-            <p> Are requests to make system changes authorized?</p>
         </div>
     )
 }
