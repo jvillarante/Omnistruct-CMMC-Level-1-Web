@@ -58,10 +58,17 @@ body {
 
 .questionBank {
   background: #d23c3c;
-  align-items: center;
+  float: right;
   width: 250px;
   height: 300px;
+  position: relative;
+  top: 40px; left: -90px;
 }
 
+.assessment {
+  width: 100vw;
+  height: 100vh;
+  
+}
 nav ul{height: 250px; width: 80%;}
 nav ul{overflow:hidden; overflow-y:scroll;}
