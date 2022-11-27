@@ -57,18 +57,101 @@ body {
 }
 
 .questionBank {
-  background: #d23c3c;
+  background: #1e6177;
   float: right;
   width: 250px;
   height: 300px;
   position: relative;
   top: 40px; left: -90px;
+  border-radius: 10px;
+}
+
+.questionButtons {
+  background-color: #1e6177;
+}
+
+.H {
+  background-color: #e3872b;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: background-color 0.5s
+}
+
+.H:hover {
+  background-color: #006179;
 }
 
 .assessment {
   width: 100vw;
   height: 100vh;
-  
+  background-color: #282828;
+  font-family: 'Roboto';
 }
+#question {
+  color: white;
+  font-family: 'Roboto';
+  font-size: x-large;
+  font-weight: bold;
+  position: relative;
+  top: 100px; left: 60px;
+}
+
+#yes, #yesLabel {
+  color: white;
+  font-family: 'Roboto';
+  font-size: larger;
+  width: 17px;
+  height: 17px;
+  position: relative;
+  top: 120px; left: 80px;
+}
+
+#no, #noLabel {
+  color: white;
+  font-family: 'Roboto';
+  font-size: larger;
+  width: 17px;
+  height: 17px;
+  position: relative;
+  top: 130px; left: 80px;
+}
+
+#next {
+  background-color: #e3872b;
+  color: white;
+  font-family: 'Roboto';
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  border: none;
+  top: 180px; left: 700px;
+  border-radius: 50px;
+  padding: 8px 2rem 8px 2rem;
+  transition: background-color 0.5s;
+}
+
+#next:hover {
+  background-color: #006179;
+}
+
+#back {
+  background-color: #e3872b;
+  color: white;
+  font-family: 'Roboto';
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  border: none;
+  top: 180px; left: 40px;
+  border-radius: 50px;
+  padding: 8px 2rem 8px 2rem;
+  transition: background-color 0.5s;
+}
+
+#back:hover {
+  background-color: #006179;
+}
+
 nav ul{height: 250px; width: 80%;}
 nav ul{overflow:hidden; overflow-y:scroll;}
