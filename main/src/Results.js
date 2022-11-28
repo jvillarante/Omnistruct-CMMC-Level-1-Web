@@ -23,12 +23,12 @@ const Results = () => {
                         <p>
                                 <div>
                                 <p>
-                                    <input type = "text" placeholder = "Company Name"/>
+                                    <input type = "text" id = "companyName" name = "company" placeholder = "Company Name"/>
                                 </p>
                                 <p>
-                                <input type = "text" placeholder = "Email Address"/>
+                                    <input type = "email" id = "emailAddress" name = "email" placeholder = "Email Address"/>
                                 </p>
-                                <button>Submit</button>
+                                <input type = "submit" value = "Submit"/>
                             </div>
                         </p>
                     </div>
