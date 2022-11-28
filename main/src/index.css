@@ -155,3 +155,68 @@ body {
 
 nav ul{height: 250px; width: 80%;}
 nav ul{overflow:hidden; overflow-y:scroll;}
+
+.logo{
+  width: 30vh; 
+  height: 1vh;
+  padding: 2rem;
+}
+
+/* changing width and height of the */
+.homepage {
+  overflow: hidden;
+  position: relative;
+  /*background: #333; //going to work on this area in 191*/
+}
+
+.homepage .title p {
+  padding: 2rem;
+  float: right;
+  color: #1a738e;
+  font-size: 35px;
+}
+/* Style the links inside the navigation bar */
+.homepage a {
+  float: left;
+  color: #020101;
+  position: static;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links when you hover */
+.homepage a:hover {
+  background-color: #1a738e;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.homepage a.active {
+  background-color: #1a738e;
+  color: white;
+  clear:both;
+}
+
+/* style the privacy disclaimer paragraph*/
+.homepage .paragraphHome {
+  color: rgb(190, 37, 37);
+  overflow: hidden;
+  position: relative;
+  clear: both;
+  align-items: center;
+  width: auto;
+  max-width: auto;
+  height: 100px;
+  margin: 3rem;
+  padding: 4rem;
+  border-radius: 2px;
+}
+
+.startResultButtons{
+  clear:both;
+  align-items: center;
+  position: static;
+}
+
