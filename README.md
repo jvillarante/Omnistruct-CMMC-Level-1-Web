@@ -71,7 +71,24 @@ TBD
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Daniel Perez 
+<br><br>
+Josiah Villarante
+<br><br>
+Anita Batishev
+<br><br>
+Christopher Son
+<br><br>
+Kevin Truong
+<br><br>
+Chase Rauhuff
+<br><br>
+Rian Allen
+<br><br>
+Jorge Villavicencio
+<br><br>
+
+Your Name -  email@email_client.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
