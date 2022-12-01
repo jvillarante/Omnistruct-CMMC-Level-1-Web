@@ -52,3 +52,6 @@ This project is used by the following companies:
 
 - Omnistruct Inc.
 
+## Support
+
+At the moment we are not offering support for the project.
