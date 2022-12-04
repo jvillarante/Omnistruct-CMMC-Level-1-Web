@@ -43,12 +43,37 @@ Rian Allen - rianallen@csus.edu
 Jorge Villavicencio - jvillavicencio@csus.edu
 
 
+## Timeline - Items complete by:
+### Feb 5, 2023
+Spring Integration and sending data from and to database.
 
+### Feb 19, 2023
+Implement logic to follow flowchart requirements. 
+Questions will have a dynamic flow depending on how the user answers.
+- Flowcharts to implement:
+    - AC: Access Control
+    - IA: Identification and Authentication
+    - MP: Media Protection
+    - PE: Physical Protection
+    - SC: System Communications Protection
+    - SI: System Information Integrity 
 
+### Mar 5, 2023
+SMTP Email Delivery. </br>
+Document Encryption. </br>
+PDF Policy Document Formatting. 
+
+### Mar 20, 2023
+Admin credential login. </br>
+Connect to host provider. </br>
+Publish website and live testing.
+
+### Apr 3, 2023
+Continue live testing and Final UI Stylings.
 
 ## Used By
 
-This project is used by the following companies:
+This project is to be used by the following companies:
 
 - Omnistruct Inc.
 
