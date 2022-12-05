@@ -21,9 +21,19 @@ The value that the client expects from this project is in companies having a met
 * ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ## Installation
 
-TBD
+TBD in Spring 2023
 
     
+## Deployment
+
+Full Deployment in Spring 2023
+
+
+## Running Tests
+
+TBD in Spring 2023
+
+
 ## Contributing
 
 Daniel Perez - danielperez2@csus.edu
@@ -43,40 +53,30 @@ Rian Allen - rianallen@csus.edu
 Jorge Villavicencio - jvillavicencio@csus.edu
 
 
-## Timeline - Items complete by:
-### Feb 5, 2023
-Spring Integration and sending data from and to database.
 
-### Feb 19, 2023
-Implement logic to follow flowchart requirements. 
-Questions will have a dynamic flow depending on how the user answers.
-- Flowcharts to implement:
-    - AC: Access Control
-    - IA: Identification and Authentication
-    - MP: Media Protection
-    - PE: Physical Protection
-    - SC: System Communications Protection
-    - SI: System Information Integrity 
 
-### Mar 5, 2023
-SMTP Email Delivery. </br>
-Document Encryption. </br>
-PDF Policy Document Formatting. 
-
-### Mar 20, 2023
-Admin credential login. </br>
-Connect to host provider. </br>
-Publish website and live testing.
-
-### Apr 3, 2023
-Continue live testing and Final UI Stylings.
 
 ## Used By
 
-This project is to be used by the following companies:
+This project is used by the following companies:
 
 - Omnistruct Inc.
+
 
 ## Support
 
 At the moment we are not offering support for the project.
+
+
+## Prototype
+
+![App Screenshot](https://raw.githubusercontent.com/jvillarante/Omnistruct-CMMC-Level-1-Web/ReadME/image.png)
+
+![App Screenshot](https://raw.githubusercontent.com/jvillarante/Omnistruct-CMMC-Level-1-Web/ReadME/image%20(1).png)
+
+![App Screenshot](https://raw.githubusercontent.com/jvillarante/Omnistruct-CMMC-Level-1-Web/ReadME/image%20(2).png)
+
+![App Screenshot](https://raw.githubusercontent.com/jvillarante/Omnistruct-CMMC-Level-1-Web/ReadME/image%20(2).png)
+
+
+
